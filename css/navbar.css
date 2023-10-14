@@ -1,0 +1,55 @@
+/* CSS for the navigation bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Adjusted for mobile */
+}
+
+nav li {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Hamburger Menu */
+.menu-icon {
+    display: none; /* Initially hide on larger screens */
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stack links vertically on small screens */
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: inline-block; /* Show hamburger icon on small screens */
+        cursor: pointer;
+    }
+
+    .menu-icon div {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px auto;
+    }
+
+    nav li {
+        flex: 1; /* Full width on small screens */
+    }
+}
