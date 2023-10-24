@@ -4,25 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/landingpage.css">
+
     <script src="script.js" defer></script>
 </head>
-<body>
 
-<nav>
-    <div class="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+
+<body>
+    <div class="navbarContainer"> 
+        <p class="headerText leftNav">Emmett</p>
+
+        <div class="pages rightNav">
+            <a href="index.html" class="headerText">Home</a></li>
+            <a href="portfolio.html" class="headerText">Experience</a>
+            <a href="art.html" class="headerText">Art Page</a></li>
+            <a href="grittygrill.html" class="headerText">Gritty Grill</a>
+            <a href="aboutme.html" class="headerText">About Me</a>
+        </div>
     </div>
-    <ul>
-        <li><a href="https://github.com/yourgithub">My GitHub</a></li>
-        <li><a href="art.html">Art Page</a></li>
-        <li><a href="portfolio.html">Portfolio Page</a></li>
-        <li><a href="grittygrill.html">Gritty Grill</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-    </ul>
-</nav>
+
+    <div class="container">
+        <div class="left">
+            <h1 class="mainText"> Hi, <br> I am <span class="purple">Emmett</span></h1>
+            <a href="contact.html" class="contact-button">Contact Me</a>
+            <div class="socials">
+                <a style="margin-right:10px" href="https://github.com/eschillinger7"><img src="Assets/github.png" alt="GitHub"></a>
+                <a href="https://linkedin.com/in/emmettschillinger"><img src="Assets/linkedIn.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="right">
+            <img class="profile-image" src="Assets/Headshot.jpg" alt="Emmett Schillinger">
+        </div>
+    </div>
+
+
 
 </body>
 </html>

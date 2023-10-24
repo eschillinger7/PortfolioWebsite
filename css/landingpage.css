@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+
+.left {
+    flex: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+}
+
+.right {
+    flex: 50%;
+}
+
+.text {
+    text-align: left;
+}
+
+.contact-button {
+    display: inline-block;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials {
+    margin-top: 10px;
+    display: flex;
+}
+
+.mainText {
+    font-size: 4em;
+}
+
+.contact-button:hover {
+    background-color: #6a1b9a; /* Darker shade of purple on hover */
+}
+
+
+.profile-image {
+    max-width: 400px;
+    height: auto;
+}
+
+
+a img {
+    max-width: 50px; /* Adjust width as needed */
+    height: auto;
+}
